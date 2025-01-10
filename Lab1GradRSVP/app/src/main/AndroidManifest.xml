@@ -25,4 +25,9 @@
         </activity>
     </application>
 
+    <uses-feature android:name="android.hardware.bluetooth"/>
+    <uses-feature android:name="android.software.backup"/>
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
 </manifest>
